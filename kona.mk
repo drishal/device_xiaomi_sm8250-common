@@ -162,7 +162,6 @@ PRODUCT_PACKAGES += \
 
 BOARD_SUPPORTS_SOUND_TRIGGER := true
 TARGET_USES_AOSP_FOR_AUDIO := true
-BOARD_SUPPORTS_OPENSOURCE_STHAL := true
 
 AUDIO_HARDWARE := audio.a2dp.default
 AUDIO_HARDWARE += audio.usb.default
@@ -200,7 +199,8 @@ PRODUCT_PACKAGES += \
     libspkrprot \
     libvisualizer \
     libvolumelistener \
-    libadpcmdec
+    libadpcmdec \
+    sound_trigger.primary.kona:32
 
 # Dolby
 PRODUCT_PROPERTY_OVERRIDES += \
