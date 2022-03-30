@@ -241,6 +241,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.fm@1.0.vendor
 
+# Cacert
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.cacert@1.0 \
+    vendor.qti.hardware.cacert@1.0.vendor
+
 # Camera
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0 \
